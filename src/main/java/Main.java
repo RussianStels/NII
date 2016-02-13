@@ -1,4 +1,3 @@
-
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.extractor.WordExtractor;
 import org.apache.poi.hwpf.usermodel.Range;
@@ -9,6 +8,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+
 /**
  * Created by mayro on 13.02.2016.
  */
@@ -16,8 +16,8 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException, OpenXML4JException, XmlException {
-        File file = new File("C:\\Users\\mayro\\Desktop\\NII\\maven\\src\\main\\resources\\med_map.doc");
-        File resFile = new File("C:\\Users\\mayro\\Desktop\\NII\\maven\\target\\result.doc");
+        File file = new File("src\\main\\resources\\med_map.doc");
+        File resFile = new File("target\\result.doc");
 
         POIFSFileSystem poifsFileSystem = new POIFSFileSystem(file);
         HWPFDocument document = new HWPFDocument(poifsFileSystem);
