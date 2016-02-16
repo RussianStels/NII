@@ -1,0 +1,23 @@
+[patientName] - им€ пациента
+[date_adm] - дата поступлени€
+[med_card_id] - id истории болезни 
+[patient_id] - id пациента
+[dep_name] - отделение
+[ward] - палата
+[age] - возраст
+[sex] - пол
+[rh_blood_code] - резус-принадлежность крови
+[procedure_of_adm] - пор€док поступлени€
+[diag_adm] - диагноз напр. учреждени€
+[cnt_days] - проведено койко-дней
+
+[birthdayDate] — дата рождения пациента
+year([birthdayDate]) — год рождения пациента
+[address] — адрес проживания пациента
+[todayDate] — сегодняшняя дата
+day([todayDate]) — сегодняшний день
+monthText(month([todayDate])) — текущий месяц текстом
+year([todayDate]) — текущий год
+[timeNow] — текущее время
+[timeStart] — время начала операции
+[timeEnd] — время конца операции
